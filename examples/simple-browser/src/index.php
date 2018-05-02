@@ -1,18 +1,17 @@
 <?php
 
 use swt\UIBrowser;
-use swt\UIButton;
 use swt\UIDisplay;
 use swt\UIWindow;
 
 $display = UIDisplay::getDefault();
 $window = new UIWindow();
-$window->size = [600, 400];
-$window->title = "SWT Window";
+$window->size = [1024, 760];
+$window->title = "Simple Browser";
 
 $browser = new UIBrowser($window);
-$browser->size = [600, 400];
-$browser->url = 'http://youtube.com';
+$browser->size = [1024, 760];
+$browser->url = 'https://google.com';
 
 $window->bind('close', function () use ($window, $display) {
     $window->free();
@@ -28,5 +27,3 @@ while (!$window->isFree()) {
 }
 
 $display->free();
-
-echo "\nDone.";

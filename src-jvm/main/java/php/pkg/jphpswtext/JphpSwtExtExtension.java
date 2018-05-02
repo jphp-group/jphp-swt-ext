@@ -1,6 +1,7 @@
 package php.pkg.jphpswtext;
 
 import org.eclipse.swt.SWTException;
+import org.eclipse.swt.browser.Browser;
 import org.eclipse.swt.widgets.*;
 import php.pkg.jphpswtext.bind.ColorMemoryOperation;
 import php.pkg.jphpswtext.bind.PointMemoryOperation;
@@ -41,6 +42,7 @@ public class JphpSwtExtExtension extends Extension {
         registerWrapperClass(scope, Control.class, UIControl.class);
         registerWrapperClass(scope, Composite.class, UIComposite.class);
         registerWrapperClass(scope, Shell.class, UIWindow.class);
+        registerWrapperClass(scope, Browser.class, UIBrowser.class);
         registerWrapperClass(scope, Button.class, UIButton.class);
 
         registerJavaException(scope, UIException.class, SWTException.class);

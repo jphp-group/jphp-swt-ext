@@ -1,18 +1,20 @@
 <?php
 
-use swt\UIBrowser;
-use swt\UIButton;
-use swt\UIDisplay;
-use swt\UIWindow;
+use swt\{UIButton, UIDisplay, UIWindow};
 
 $display = UIDisplay::getDefault();
 $window = new UIWindow();
 $window->size = [600, 400];
-$window->title = "SWT Window";
+$window->title = "Magic Button";
 
-$browser = new UIBrowser($window);
-$browser->size = [600, 400];
-$browser->url = 'http://youtube.com';
+$button = new UIButton($window);
+$button->text = 'Click Me!';
+$button->size = [200, 40];
+$button->position = [200, 160];
+
+$button->bind('action', function () use ($button) {
+    $button->text = "Clicked!";
+});
 
 $window->bind('close', function () use ($window, $display) {
     $window->free();
@@ -28,5 +30,3 @@ while (!$window->isFree()) {
 }
 
 $display->free();
-
-echo "\nDone.";
