@@ -6,7 +6,7 @@ plugins: [App]
 
 deps:
   jphp-core: '*'
-  jphp-swt-core: '*'
+  jphp-swt-ext: '*'
 
 sources:
 - src

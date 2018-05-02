@@ -1,5 +1,5 @@
 
-name: jphp-swt-core
+name: jphp-swt-ext
 version: 1.0.0+dev
 
 plugins: [Hub, Doc, Gradle]
@@ -16,7 +16,7 @@ gradle:
     - 'file:src-jvm/main/resources/swt/swt-win-x86.jar'
 
 config:
-  ignore: ['/sandbox/**', '/.idea/**', '/*.iml']
+  ignore: ['/sandbox/**', '/.idea/**', '/*.iml', '/.git/**']
 
 doc:
   url-prefix: 'https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/'
