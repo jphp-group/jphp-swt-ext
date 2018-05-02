@@ -17,3 +17,7 @@ gradle:
 
 config:
   ignore: ['/sandbox/**', '/.idea/**', '/*.iml']
+
+doc:
+  url-prefix: 'https://github.com/jphp-compiler/jphp/blob/master/api-docs/'
+  langs: {en: 'English', ru: 'Русский'}
