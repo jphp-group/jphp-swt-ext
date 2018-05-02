@@ -2,13 +2,13 @@
 
 ---
 
-## jphp-swt-core
+## jphp-swt-ext
 > version 1.0.0+dev, created by JPPM.
 
 
 ### Install
 ```
-jppm add jphp-swt-core@1.0.0+dev
+jppm add jphp-swt-ext@1.0.0+dev
 ```
 
 ### API

@@ -2,13 +2,13 @@
 
 ---
 
-## jphp-swt-core
+## jphp-swt-ext
 > версия 1.0.0+dev, создано с помощью JPPM.
 
 
 ### Установка
 ```
-jppm add jphp-swt-core@1.0.0+dev
+jppm add jphp-swt-ext@1.0.0+dev
 ```
 
 ### АПИ
