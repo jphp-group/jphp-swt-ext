@@ -1,6 +1,6 @@
 # UIWindow
 
-- **class** `UIWindow` (`swt\UIWindow`) **extends** [`UIComposite`](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIComposite.md)
+- **class** `UIWindow` (`swt\UIWindow`) **extends** [`UIComposite`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md)
 - **source** `swt/UIWindow.php`
 
 **Description**
@@ -15,7 +15,7 @@ Window
 - `->`[`maximized`](#prop-maximized) : `bool`
 - `->`[`fullscreen`](#prop-fullscreen) : `bool`
 - `->`[`opacity`](#prop-opacity) : `float` - _Alpha of window, from 0.0 to 1.0_
-- *See also in the parent class* [UIComposite](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIComposite.md).
+- *See also in the parent class* [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md).
 
 ---
 
@@ -25,7 +25,7 @@ Window
 - `->`[`center()`](#method-center) - _Set center position on monitor._
 - `->`[`open()`](#method-open) - _Open the window._
 - `->`[`close()`](#method-close) - _Close the window._
-- See also in the parent class [UIComposite](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIComposite.md)
+- See also in the parent class [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md)
 
 ---
 # Methods

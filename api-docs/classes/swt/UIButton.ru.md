@@ -1,6 +1,6 @@
 # UIButton
 
-- **класс** `UIButton` (`swt\UIButton`) **унаследован от** [`UIControl`](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIControl.ru.md)
+- **класс** `UIButton` (`swt\UIButton`) **унаследован от** [`UIControl`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md)
 - **исходники** `swt/UIButton.php`
 
 **Описание**
@@ -15,14 +15,14 @@ Events:
 #### Свойства
 
 - `->`[`text`](#prop-text) : `string`
-- *См. также в родительском классе* [UIControl](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIControl.ru.md).
+- *См. также в родительском классе* [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md).
 
 ---
 
 #### Методы
 
 - `->`[`__construct()`](#method-__construct) - _UIButton constructor._
-- См. также в родительском классе [UIControl](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIControl.ru.md)
+- См. также в родительском классе [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md)
 
 ---
 # Методы

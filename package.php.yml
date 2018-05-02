@@ -19,5 +19,5 @@ config:
   ignore: ['/sandbox/**', '/.idea/**', '/*.iml']
 
 doc:
-  url-prefix: 'https://github.com/jphp-compiler/jphp/blob/master/api-docs/'
+  url-prefix: 'https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/'
   langs: {en: 'English', ru: 'Русский'}

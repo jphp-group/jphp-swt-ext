@@ -1,11 +1,11 @@
 # UIControl
 
-- **class** `UIControl` (`swt\UIControl`) **extends** [`UIWidget`](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIWidget.md)
+- **class** `UIControl` (`swt\UIControl`) **extends** [`UIWidget`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIWidget.md)
 - **source** `swt/UIControl.php`
 
 **Child Classes**
 
-> [UIButton](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIButton.md), [UIComposite](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIComposite.md)
+> [UIButton](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIButton.md), [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md)
 
 ---
 
@@ -16,8 +16,8 @@
 - `->`[`size`](#prop-size) : `array` - _Size (Width and Height)_
 - `->`[`position`](#prop-position) : `array` - _Position X, Y_
 - `->`[`focused`](#prop-focused) : `bool` - _Is focused control?_
-- `->`[`parent`](#prop-parent) : [`UIComposite`](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIComposite.md)
-- *See also in the parent class* [UIWidget](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIWidget.md).
+- `->`[`parent`](#prop-parent) : [`UIComposite`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md)
+- *See also in the parent class* [UIWidget](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIWidget.md).
 
 ---
 
@@ -25,7 +25,7 @@
 
 - `->`[`pack()`](#method-pack) - _Causes the receiver to be resized to its preferred size._
 - `->`[`requestFocus()`](#method-requestfocus) - _Causes the receiver to have the keyboard focus, such that all keyboard events will be delivered to it._
-- See also in the parent class [UIWidget](https://github.com/jphp-compiler/jphp/blob/master/api-docs/classes/swt/UIWidget.md)
+- See also in the parent class [UIWidget](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIWidget.md)
 
 ---
 # Methods
