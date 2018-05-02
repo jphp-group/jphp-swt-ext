@@ -16,6 +16,7 @@ jppm add jphp-swt-ext@1.0.0+dev
 
 #### `swt`
 
+- [`UIBrowser`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIBrowser.ru.md)- _Браузер для просмотра web страниц, базируется на системном браузере операционной системы:_
 - [`UIButton`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIButton.ru.md)- _Simple Button._
 - [`UIComposite`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.ru.md)
 - [`UIControl`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md)

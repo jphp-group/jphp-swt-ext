@@ -5,7 +5,7 @@
 
 **Классы наследники**
 
-> [UIButton](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIButton.ru.md), [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.ru.md)
+> [UIBrowser](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIBrowser.ru.md), [UIButton](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIButton.ru.md), [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.ru.md)
 
 ---
 
