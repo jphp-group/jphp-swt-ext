@@ -16,7 +16,7 @@ gradle:
     - 'file:src-jvm/main/resources/swt/swt-win-x86.jar'
 
 config:
-  ignore: ['/sandbox/**', '/.idea/**', '/*.iml', '/.git/**']
+  ignore: ['/sandbox/**', '/.idea/**', '/*.iml', '/.git/**', '/examples/**']
 
 doc:
   url-prefix: 'https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/'
