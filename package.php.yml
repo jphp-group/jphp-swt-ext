@@ -1,14 +1,19 @@
 
-name: jphp-swt-ext
+name: jphp-swt-core
 version: 1.0.0+dev
 
 plugins: [Hub, Doc, Gradle]
 
 deps:
-  jphp-runtime-ext: '*'
-  
-sources:
-- src
-  
+  jphp-runtime: '*'
+  jphp-graphic-ext: '>=1.0.0'
+
 hub:
   login: d.zayceff@gmail.com
+
+gradle:
+  providedDeps:
+    - 'file:src-jvm/main/resources/swt/swt-win-x86.jar'
+
+config:
+  ignore: ['/sandbox/**', '/.idea/**', '/*.iml']
