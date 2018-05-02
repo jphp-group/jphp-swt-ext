@@ -1,0 +1,11 @@
+
+name: jphp-swt-ext
+version: 1.0.0+dev
+
+plguins: [Hub, Doc, Gradle]
+
+deps:
+  jphp-runtime-ext: '*'
+  
+hub:
+  login: d.zayceff@gmail.com
