@@ -1,0 +1,16 @@
+name: example
+version: 1.0.0
+
+deps:
+  jphp-core: '*'
+  jphp-swt-ext: '*'
+  jphp-swt-dialog-ext: '*'
+
+plugins:
+- App
+
+sources:
+- src
+
+includes:
+- index.php

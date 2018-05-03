@@ -1,22 +1,21 @@
 
-name: jphp-swt-ext
+name: jphp-swt-dialog-ext
 version: 1.0.0+dev
 
 plugins: [Hub, Doc, Gradle]
 
 deps:
-  jphp-runtime: '*'
-  jphp-graphic-ext: '>=1.0.0'
+  jphp-swt-ext: '>=1.0.0'
 
 hub:
   login: d.zayceff@gmail.com
 
+config:
+  ignore: ['/sandbox/**', '/.idea/**', '/*.iml', '/.git/**', '/examples/**', '/example/**']
+
 gradle:
   providedDeps:
     - 'file:../swt-api.jar'
-
-config:
-  ignore: ['/sandbox/**', '/.idea/**', '/*.iml', '/.git/**', '/examples/**']
 
 doc:
   url-prefix: 'https://github.com/jphp-compiler/jphp-swt-ext/blob/master/%name%/api-docs/'
