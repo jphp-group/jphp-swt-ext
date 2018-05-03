@@ -1,5 +1,5 @@
 
-/jars/x-*.jar
+x-*.jar
 build.gradle
 gradlew
 gradlew.bat

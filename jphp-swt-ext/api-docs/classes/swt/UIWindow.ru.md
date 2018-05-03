@@ -1,34 +1,34 @@
 # UIWindow
 
-- **class** `UIWindow` (`swt\UIWindow`) **extends** [`UIComposite`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md)
-- **source** `swt/UIWindow.php`
+- **класс** `UIWindow` (`swt\UIWindow`) **унаследован от** [`UIComposite`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIComposite.ru.md)
+- **исходники** `swt/UIWindow.php`
 
-**Description**
+**Описание**
 
 Window
 
 ---
 
-#### Properties
+#### Свойства
 
 - `->`[`title`](#prop-title) : `string` - _Title text of the window._
 - `->`[`maximized`](#prop-maximized) : `bool`
 - `->`[`fullscreen`](#prop-fullscreen) : `bool`
 - `->`[`opacity`](#prop-opacity) : `float` - _Alpha of window, from 0.0 to 1.0_
-- *See also in the parent class* [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md).
+- *См. также в родительском классе* [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIComposite.ru.md).
 
 ---
 
-#### Methods
+#### Методы
 
 - `->`[`__construct()`](#method-__construct) - _UIWindow constructor._
 - `->`[`center()`](#method-center) - _Set center position on monitor._
 - `->`[`open()`](#method-open) - _Open the window._
 - `->`[`close()`](#method-close) - _Close the window._
-- See also in the parent class [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIComposite.md)
+- См. также в родительском классе [UIComposite](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIComposite.ru.md)
 
 ---
-# Methods
+# Методы
 
 <a name="method-__construct"></a>
 

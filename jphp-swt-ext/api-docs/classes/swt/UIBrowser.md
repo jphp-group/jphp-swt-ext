@@ -1,6 +1,6 @@
 # UIBrowser
 
-- **class** `UIBrowser` (`swt\UIBrowser`) **extends** [`UIControl`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.md)
+- **class** `UIBrowser` (`swt\UIBrowser`) **extends** [`UIControl`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.md)
 - **source** `swt/UIBrowser.php`
 
 **Description**
@@ -19,14 +19,14 @@ Browser for web pages based on System OS Browser.
 - `->`[`browserType`](#prop-browsertype) : `string` - _Browser Type, eg: `ie` - internet explorer._
 - `->`[`url`](#prop-url) : `string` - _Current url of browser._
 - `->`[`html`](#prop-html) : `string` - _Html content as string._
-- *See also in the parent class* [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.md).
+- *See also in the parent class* [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.md).
 
 ---
 
 #### Methods
 
 - `->`[`__construct()`](#method-__construct) - _UIBrowser constructor._
-- See also in the parent class [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.md)
+- See also in the parent class [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.md)
 
 ---
 # Methods

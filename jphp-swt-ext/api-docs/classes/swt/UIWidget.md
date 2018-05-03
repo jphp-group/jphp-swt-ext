@@ -5,7 +5,7 @@
 
 **Child Classes**
 
-> [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.md)
+> [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.md)
 
 **Description**
 
@@ -15,7 +15,7 @@ Basic class for all UI widgets.
 
 #### Properties
 
-- `->`[`display`](#prop-display) : [`UIDisplay`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIDisplay.md)
+- `->`[`display`](#prop-display) : [`UIDisplay`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIDisplay.md)
 
 ---
 

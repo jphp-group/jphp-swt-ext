@@ -5,7 +5,7 @@
 
 **Классы наследники**
 
-> [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md)
+> [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.ru.md)
 
 **Описание**
 
@@ -15,7 +15,7 @@
 
 #### Свойства
 
-- `->`[`display`](#prop-display) : [`UIDisplay`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIDisplay.ru.md)
+- `->`[`display`](#prop-display) : [`UIDisplay`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIDisplay.ru.md)
 
 ---
 

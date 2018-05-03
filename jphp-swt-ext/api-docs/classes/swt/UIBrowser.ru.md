@@ -1,6 +1,6 @@
 # UIBrowser
 
-- **класс** `UIBrowser` (`swt\UIBrowser`) **унаследован от** [`UIControl`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md)
+- **класс** `UIBrowser` (`swt\UIBrowser`) **унаследован от** [`UIControl`](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.ru.md)
 - **исходники** `swt/UIBrowser.php`
 
 **Описание**
@@ -18,14 +18,14 @@
 - `->`[`browserType`](#prop-browsertype) : `string` - _Browser Type, eg: `ie` - internet explorer._
 - `->`[`url`](#prop-url) : `string` - _Текущий url браузера._
 - `->`[`html`](#prop-html) : `string` - _Html контент в виде строки._
-- *См. также в родительском классе* [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md).
+- *См. также в родительском классе* [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.ru.md).
 
 ---
 
 #### Методы
 
 - `->`[`__construct()`](#method-__construct) - _UIBrowser constructor._
-- См. также в родительском классе [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/api-docs/classes/swt/UIControl.ru.md)
+- См. также в родительском классе [UIControl](https://github.com/jphp-compiler/jphp-swt-ext/blob/master/jphp-swt-ext/api-docs/classes/swt/UIControl.ru.md)
 
 ---
 # Методы
