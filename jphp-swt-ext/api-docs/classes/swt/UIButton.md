@@ -31,6 +31,6 @@ Events:
 
 ### __construct()
 ```php
-__construct(swt\UIComposite $owner): void
+__construct(swt\UIComposite $owner, int $type): void
 ```
 UIButton constructor.

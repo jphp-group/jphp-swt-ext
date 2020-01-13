@@ -12,8 +12,12 @@ hub:
   login: d.zayceff@gmail.com
 
 gradle:
+  repos:
+    - 'http://maven-eclipse.github.io/maven'
   providedDeps:
     - 'file:../swt-api.jar'
+  deps:
+    - 'org.eclipse.swt:org.eclipse.swt.gtk.linux.x86_64:4.6.1'
 
 config:
   ignore: ['/sandbox/**', '/.idea/**', '/*.iml', '/.git/**', '/examples/**']

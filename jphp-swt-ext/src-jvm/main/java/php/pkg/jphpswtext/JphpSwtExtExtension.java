@@ -24,7 +24,11 @@ public class JphpSwtExtExtension extends Extension {
     public static final String NS = "swt";
 
     static {
-        loadSwtJar();
+        try {
+            Class.forName("org.eclipse.swt.widgets.Shell");
+        } catch (ClassNotFoundException e) {
+            loadSwtJar();
+        }
     }
     
     @Override
