@@ -1,25 +1,18 @@
 package php.pkg.jphpswtext.classes;
 
-import org.eclipse.swt.SWTException;
-import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Widget;
 import php.pkg.jphpswtext.JphpSwtExtExtension;
 import php.pkg.jphpswtext.support.EventManager;
-import php.runtime.annotation.Reflection;
 import php.runtime.annotation.Reflection.Getter;
 import php.runtime.annotation.Reflection.Namespace;
 import php.runtime.annotation.Reflection.Signature;
 import php.runtime.env.Environment;
-import php.runtime.exceptions.CriticalException;
-import php.runtime.exceptions.JPHPException;
-import php.runtime.exceptions.support.ErrorType;
 import php.runtime.invoke.Invoker;
 import php.runtime.lang.BaseWrapper;
 import php.runtime.reflection.ClassEntity;
 
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 @Namespace(JphpSwtExtExtension.NS)
 abstract public class UIWidget<T extends Widget> extends BaseWrapper<T> {

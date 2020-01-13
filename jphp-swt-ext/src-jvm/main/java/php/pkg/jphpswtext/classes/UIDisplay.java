@@ -3,7 +3,6 @@ package php.pkg.jphpswtext.classes;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.widgets.Display;
 import php.pkg.jphpswtext.JphpSwtExtExtension;
-import php.runtime.annotation.Reflection;
 import php.runtime.annotation.Reflection.Getter;
 import php.runtime.annotation.Reflection.Namespace;
 import php.runtime.annotation.Reflection.Signature;

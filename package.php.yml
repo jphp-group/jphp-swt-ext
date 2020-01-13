@@ -1,0 +1,15 @@
+name: jphp-swt-base
+vestion: 1.0.0
+type: project
+
+plugins: [Doc, Hub]
+
+hub:
+    login: yousan4ik@gmail.com
+
+modules:
+    - jphp-swt-ext
+    - jphp-swt-dialog-ext
+    - jphp-swt-linux-ext
+    - jphp-swt-win32-ext
+    - jphp-swt-macosx-ext
