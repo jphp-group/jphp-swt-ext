@@ -4,6 +4,7 @@ import org.eclipse.swt.widgets.Event;
 import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Widget;
 import php.pkg.jphpswtext.classes.UIWidget;
+import php.runtime.Memory;
 import php.runtime.env.Environment;
 import php.runtime.invoke.Invoker;
 
@@ -23,12 +24,7 @@ public class WidgetEventManager extends EventManager {
 
     @Override
     public void bind(Environment env, Invoker invoker) {
-        this.widget.addListener(eventType, new Listener() {
-            @Override
-            public void handleEvent(Event event) {
-                invoker.callAny();
-            }
-        });
+        this.widget.addListener(eventType, event -> invoker.callAny(Memory.wrap(env, event)));
     }
 
     @Override

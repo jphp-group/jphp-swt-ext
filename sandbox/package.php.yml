@@ -7,6 +7,7 @@ plugins: [App]
 deps:
   jphp-core: '*'
   jphp-swt-ext: '*'
+  jphp-swt-dialog-ext: '*'
   jphp-swt-linux-ext: '*'
   jphp-swt-win32-ext: '*'
 
