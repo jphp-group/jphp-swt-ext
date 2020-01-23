@@ -48,6 +48,7 @@ public class JphpSwtExtExtension extends Extension {
         registerWrapperClass(scope, Shell.class, UIWindow.class);
         registerWrapperClass(scope, Browser.class, UIBrowser.class);
         registerWrapperClass(scope, Button.class, UIButton.class);
+        registerWrapperClass(scope, Event.class, UIEvent.class);
 
         registerJavaException(scope, UIException.class, SWTException.class);
     }

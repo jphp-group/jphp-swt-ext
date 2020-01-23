@@ -1,7 +1,6 @@
 package php.pkg.jphpswtext.support;
 
 import org.eclipse.swt.SWTException;
-import org.eclipse.swt.widgets.Widget;
 import php.runtime.env.Environment;
 import php.runtime.exceptions.CriticalException;
 import php.runtime.invoke.Invoker;

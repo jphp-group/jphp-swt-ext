@@ -1,6 +1,6 @@
 <?
 
-use swt\{UIButton, UIDisplay, UIWindow};
+use swt\{UIButton, UIDisplay, UIEvent, UIWindow};
 
 $display = UIDisplay::getDefault();
 $window = new UIWindow();
@@ -12,8 +12,9 @@ $button->text = 'Click Me!';
 $button->size = [200, 40];
 $button->position = [200, 160];
 
-$button->bind('action', function () use ($button) {
-    $button->text = "Clicked!";
+$button->bind('action', function (UIEvent $event) use ($button) {
+    $event->display->beep();
+    $event->widget->text = "Clicked!";
 });
 
 $window->bind('close', function () use ($window, $display) {

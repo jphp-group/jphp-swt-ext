@@ -1,9 +1,11 @@
 package php.pkg.jphpswtext.classes;
 
+import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Widget;
 import php.pkg.jphpswtext.JphpSwtExtExtension;
 import php.pkg.jphpswtext.support.EventManager;
+import php.pkg.jphpswtext.support.WidgetEventManager;
 import php.runtime.annotation.Reflection.Getter;
 import php.runtime.annotation.Reflection.Namespace;
 import php.runtime.annotation.Reflection.Signature;
@@ -67,5 +69,17 @@ abstract public class UIWidget<T extends Widget> extends BaseWrapper<T> {
     @Signature
     public void trigger(Environment env, String event) throws InvocationTargetException, IllegalAccessException {
         EventManager.create(this, event).trigger(env);
+    }
+
+    public WidgetEventManager paintEventManager() {
+        return new WidgetEventManager(this, SWT.Paint);
+    }
+
+    public WidgetEventManager keyUpEventManager() {
+        return new WidgetEventManager(this, SWT.KeyUp);
+    }
+
+    public WidgetEventManager keyDownEventManager() {
+        return new WidgetEventManager(this, SWT.KeyDown);
     }
 }

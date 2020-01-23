@@ -6,6 +6,11 @@ namespace swt;
  * --RU--
  * Базовый класс для всех UI виджетов (компонентов).
  *
+ * Events:
+ *  - `paint` - on widget painted.
+ *  - `keyUp`
+ *  - `keyDown`
+ *
  * @package swt
  */
 abstract class UIWidget
